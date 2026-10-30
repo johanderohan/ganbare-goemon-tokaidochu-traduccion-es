@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/nintendo-ds/ganbare-goemon-tokaidochu)**.
+
 Traducción al **español de España** de *Ganbare Goemon: Tōkaidōchū Ōedo
 Tengurigaeshi no Maki* (がんばれゴエモン 東海道中 大江戸天狗り返しの巻, Nintendo DS,
 Konami, 2005), la aventura de Goemon y Ebisumaru por el camino del Tokaido, que
