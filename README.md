@@ -14,13 +14,13 @@ copia de la versión japonesa para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**.
+Última versión: **[v1.1](../../releases/tag/v1.1)**.
 
 | Parte | Estado |
 |---|---|
 | Historia: apertura, juicios, escenas de los ocho actos, final y escenas de libro de cada zona | **Traducida entera** |
 | Diálogos de pueblos, tiendas y casas de comidas, recados, concursos, dojos, cameos, ayudas de mecanismos y mensajes del sistema (guardar, datos, postas del camino) | **Traducidos enteros**: 3.373 grupos de diálogo |
-| Gráficos con texto: título y submenús, selección de datos, Sí/No, opciones de sonido, pausa (con la pantalla de controles), placas de armas y objetos, nombres de hablante, placas de zona, sellos del minimapa, mapa del Tokaido con sus 57 postas, cartela y títulos de los capítulos, selección de personaje, minijuegos, jefes e Impact, precios de las cartas | **Redibujados en castellano** |
+| Gráficos con texto: título y submenús, selección de datos, Sí/No, opciones de sonido, pausa (con la pantalla de controles), placas de armas y objetos, nombres de hablante, placas de zona, sellos del minimapa, mapa del Tokaido con sus 57 postas, cartela y títulos de los capítulos, selección de personaje, minijuegos, jefes e Impact, precios de las cartas, placas de destino del porteador, minijuego del torno (tablón, indicadores, botones, arcillas y rangos), «¡N.º CAPÍTULO SUPERADO!», fin de partida y «JEFE» | **Redibujados en castellano** |
 | Caracteres españoles | **á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ ¡ ¿ « »** |
 
 El original dibuja el texto en vertical en las escenas de libro y con una letra
@@ -42,12 +42,17 @@ título y submenús, selección de datos, la apertura completa, el juicio, la pr
 pasadizo con su puzle de la cuerda y la llegada a Hagure (Edo), con sus vecinos, la casa
 de té, la tienda de salsa de soja, la casa de comidas, la pausa con todas sus pestañas,
 guardar, volver al título y cargar. Las escenas de libro del final de cada acto y el
-final se han visto en el emulador por una ruta de prueba dirigida. **El resto del juego
+final se han visto en el emulador por una ruta de prueba dirigida. Lo añadido en la v1.1
+(porteador, minijuego del torno, rótulos de fin de capítulo y fin de partida) se ha
+visto en el emulador; el fin del capítulo 1 y el fin de partida, jugando, y lo demás, con
+pruebas dirigidas. Los nombres de hablante nuevos (Plasma, Kensuke, los Marble) solo se
+han visto en pruebas dirigidas. **El resto del juego
 (actos 2 a 8, sus pueblos, tiendas y jefes) no se ha jugado**: sus textos se han
 traducido, revisado y comprobado con una auditoría automática que lee la ROM montada y
 verifica los límites de cada caja y de cada guion, los caracteres, que se conservan
-todos los controles del motor y la estructura de los ficheros. No se ha probado en
-consola real.
+todos los controles del motor y la estructura de los ficheros. Un jugador está jugando
+la v1.0 en consola real (sus avisos dieron lugar a la v1.1); nosotros no la hemos probado
+en consola.
 
 La traducción y la revisión se han hecho con ayuda de inteligencia artificial, con
 biblia de personajes y términos, revisión editorial cruzada de todo el texto, una pasada
@@ -64,6 +69,8 @@ Pendiente o conocido:
   comidas.
 - No se ha completado ninguna compra con dinero en el emulador (sí se han visto la carta,
   sus fichas y la respuesta de la tabernera cuando no alcanza el dinero).
+- La explicación de controles de los combates de Impact (vista en el menú de minijuegos)
+  y la prueba de sonido siguen en japonés.
 - El modo de descarga Impact (DS Download Play) conserva sus menús en japonés. La
   descarga inalámbrica no se ha probado.
 
@@ -90,12 +97,17 @@ Pendiente o conocido:
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "juego original.nds" parche.xdelta "juego traducido.nds"`
-5. Para **v1.0**, comprueba que la ROM resultante tiene MD5
-   **`5abc1bd712e8cfdb49b457bdb969f384`** (67.108.864 bytes).
+5. Para **v1.1**, comprueba que la ROM resultante tiene MD5
+   **`1bc98d921496fda3998c046773a101d8`** (67.108.864 bytes). El parche se aplica
+   siempre sobre la ROM japonesa original, no sobre una versión anterior traducida.
 6. Carga la ROM resultante en tu emulador o flashcard preferidos.
 
 ## Cambios
 
+- **v1.1**: traduce los gráficos que seguían en japonés: nombres de hablante que faltaban
+  (Plasma, Kensuke, los Marble…), placas de destino del porteador, el minijuego del torno
+  de Kanagawa entero (también las descripciones de arcilla), el rótulo de fin de capítulo,
+  la pantalla de fin de partida y el rótulo «JEFE». Gracias al jugador que avisó.
 - **v1.0**: primera versión pública.
 
 ## Créditos
